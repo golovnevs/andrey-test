@@ -82,7 +82,7 @@ const Home = ({ db }) => {
 }
 
 Home.getInitialProps = async () => {
-  const res = await fetch('http://localhost:3000/api/get-everything')
+  const res = await fetch('http://localhost:80/api/get-everything')
   return { db: await res.json() }
 }
 
