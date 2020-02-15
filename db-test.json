@@ -1,0 +1,169 @@
+{
+  "liPoints": 6799,
+  "wishes": [
+    {
+      "id": "breakfast",
+      "name": "Завтрак в постель",
+      "group": "food",
+      "cost": 600
+    },
+    {
+      "id": "coffee",
+      "name": "Кофе/чай",
+      "group": "food",
+      "cost": 100
+    },
+    {
+      "id": "fruits",
+      "name": "Фруктовая тарелка",
+      "group": "food",
+      "cost": 250
+    },
+    {
+      "id": "croissant",
+      "name": "Круассан",
+      "group": "food",
+      "cost": 300
+    },
+    {
+      "id": "soup",
+      "name": "Суп",
+      "group": "food",
+      "cost": 2000
+    },
+    {
+      "id": "pelmeni",
+      "name": "Пельмени",
+      "group": "food",
+      "cost": 400
+    },
+    {
+      "id": "cart",
+      "name": "Вкусняхи из магазина",
+      "group": "food",
+      "cost": 400
+    },
+    {
+      "id": "foot-massage",
+      "name": "Массаж ножек",
+      "group": "recovery",
+      "cost": 500,
+      "sexualizedCost": 250
+    },
+    {
+      "id": "hand-massage",
+      "name": "Массаж ручек",
+      "group": "recovery",
+      "cost": 400,
+      "sexualizedCost": 200
+    },
+    {
+      "id": "back-massage",
+      "name": "Массаж спинки",
+      "group": "recovery",
+      "cost": 600,
+      "sexualizedCost": 300
+    },
+    {
+      "id": "ass-massage",
+      "name": "Массаж нижней спинки",
+      "group": "recovery",
+      "cost": 2000,
+      "sexualizedCost": 250
+    },
+    {
+      "id": "head-massage",
+      "name": "Массаж головы",
+      "group": "recovery",
+      "cost": 500
+    },
+    {
+      "id": "bath",
+      "name": "Ванна",
+      "group": "recovery",
+      "cost": 400,
+      "sexualizedCost": 100
+    },
+    {
+      "id": "tongue",
+      "name": "Куни",
+      "group": "recovery",
+      "cost": 1
+    },
+    {
+      "id": "beer",
+      "name": "Пиво с рыбкой",
+      "group": "recovery",
+      "cost": 500
+    },
+    {
+      "id": "non-alcoholic-beer",
+      "name": "Б/а пиво с рыбкой",
+      "group": "recovery",
+      "cost": 200
+    },
+    {
+      "id": "chores",
+      "name": "Дела по дому",
+      "group": "other",
+      "cost": 100
+    },
+    {
+      "id": "boris-walk",
+      "name": "Прогулка с Борей",
+      "group": "other",
+      "cost": 500
+    },
+    {
+      "id": "boris-play",
+      "name": "Игры с Борей",
+      "group": "other",
+      "cost": 200
+    }
+  ],
+  "history": [
+    {
+      "id": "foot-massage",
+      "cost": 485,
+      "ts": 1581752315720
+    },
+    {
+      "id": "coffee",
+      "cost": 100,
+      "ts": 1581752040869
+    },
+    {
+      "id": "foot-massage",
+      "cost": 500,
+      "ts": 1581665629147
+    },
+    {
+      "id": "non-alcoholic-beer",
+      "cost": 200,
+      "ts": 1581579229147
+    },
+    {
+      "id": "tongue",
+      "cost": 1,
+      "ts": 1581579226366
+    },
+    {
+      "id": "ass-massage",
+      "cost": 2000,
+      "ts": 1581579225366
+    },
+    {
+      "id": "pelmeni",
+      "cost": 400,
+      "ts": 1581579224176
+    },
+    {
+      "id": "breakfast",
+      "cost": 600,
+      "ts": 1581579007226
+    }
+  ],
+  "promo": {
+    "latestTs": null
+  }
+}

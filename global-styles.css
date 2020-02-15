@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Comfortaa', cursive;
+    color: #d3e8ff;
+}
+
+body {
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(to right, #000000 , #011b54);
+}
+
+ul {
+    list-style: none;
+}
