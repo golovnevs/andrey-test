@@ -1,7 +1,8 @@
 import React, { useState } from 'react'
+import fetch from 'isomorphic-unfetch'
 import Head from '../components/head'
 import formatTs from '../utils/format-ts';
-import fetch from 'isomorphic-unfetch'
+import appOrigin from '../utils/app-origin'
 
 const History = ({ db }) => {
   const [data, setData] = useState(null)
@@ -58,7 +59,7 @@ const History = ({ db }) => {
 }
 
 History.getInitialProps = async () => {
-  const res = await fetch('http://167.71.45.122/api/get-everything')
+  const res = await fetch(`${appOrigin}/api/get-everything`)
   return { db: await res.json() }
 }
 

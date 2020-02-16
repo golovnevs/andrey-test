@@ -5,7 +5,7 @@ import Head from '../components/head'
 import Cards from '../components/Cards'
 import { calculateStreakDiscount } from '../utils/streak'
 import pluralize from '../utils/pluralize'
-
+import appOrigin from '../utils/app-origin'
 
 const Home = ({ db }) => {
   const [data, setData] = useState(null)
@@ -26,7 +26,7 @@ const Home = ({ db }) => {
           Accept: 'application/json',
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify({ id }),
+        body: JSON.stringify({ id, isSexualized }),
       })
       const responseJson = await res.json()
       if (res.status === 201) {
@@ -82,7 +82,7 @@ const Home = ({ db }) => {
 }
 
 Home.getInitialProps = async () => {
-  const res = await fetch('http://167.71.45.122/api/get-everything')
+  const res = await fetch(`${appOrigin}/api/get-everything`)
   return { db: await res.json() }
 }
 
