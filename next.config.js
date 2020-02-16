@@ -1,6 +1,6 @@
 module.exports = {
   env: {
-    customKey: 'APP_ORIGIN',
+    APP_ORIGIN: process.env.APP_ORIGIN,
   },
   webpack: config => {
     // Fixes npm packages that depend on `fs` module
