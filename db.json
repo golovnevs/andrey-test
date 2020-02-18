@@ -121,7 +121,14 @@
       "cost": 200
     }
   ],
-  "history": [],
+  "history": [
+    {
+      "id": "boris-walk",
+      "isSexualized": false,
+      "cost": 500,
+      "ts": 1581850574202
+    }
+  ],
   "promo": {
     "latestTs": null
   }

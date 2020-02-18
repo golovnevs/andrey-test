@@ -36,7 +36,7 @@ export default (req, res) => {
     return res.status(400).json({ error })
   }
 
-  const ts = +new Date()
+  const ts = Date.now()
 
   db.liPoints -= cost
   db.history.unshift({
