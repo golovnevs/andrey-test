@@ -8,6 +8,12 @@
       "cost": 600
     },
     {
+      "id": "blini",
+      "name": "Блинчики",
+      "group": "food",
+      "cost": 600
+    },
+    {
       "id": "coffee",
       "name": "Кофе/чай",
       "group": "food",
