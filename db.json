@@ -131,6 +131,36 @@
     {
       "id": "boris-walk",
       "isSexualized": false,
+      "cost": 485,
+      "ts": 1582098601774
+    },
+    {
+      "id": "coffee",
+      "isSexualized": false,
+      "cost": 99,
+      "ts": 1582098595079
+    },
+    {
+      "id": "boris-play",
+      "isSexualized": false,
+      "cost": 200,
+      "ts": 1582050126445
+    },
+    {
+      "id": "back-massage",
+      "isSexualized": false,
+      "cost": 600,
+      "ts": 1582050115825
+    },
+    {
+      "id": "hand-massage",
+      "isSexualized": false,
+      "cost": 400,
+      "ts": 1581987832980
+    },
+    {
+      "id": "boris-walk",
+      "isSexualized": false,
       "cost": 500,
       "ts": 1581850574202
     }
