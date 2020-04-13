@@ -48,7 +48,7 @@ export default (req, res) => {
 
   fs.writeFileSync('./db.json', JSON.stringify(db, null, 2))
 
-  sendMessageToTelegram(`Лиза загадала желание ${desiredWish.name} ${formatTs(ts)}`)
+  sendMessageToTelegram(`Лиза загадала желание ${desiredWish.name} ${isSexualized ? '(sexualized) ' : ''}${formatTs(ts)}`)
 
   res.status(201).json(prepareDbData(db));
 };
